@@ -1,91 +1,47 @@
-#titulo {
-	text-align: center;
-	font-weight: lighter;
-	font-size: 8em;
-	color: #671e8b;
-	margin-top: 25%;
+* {
+	font-family: 'Finger Paint', cursive;
 }
-#adrix {
-	border-radius: 50%;
-	margin-top: 5%;
-	width: 100%;
-	height: 30em;
-}
-#home {
-	width: 100%;
-	min-height: 50em;
-	background-image: url(../img/noisy_net.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-#sobreMi {
-	width: 100%;
-	min-height: 50em;
-	background-image: url(../img/grey_wash_wall.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}
-.titulo2 {
-	text-align: center;
-	font-weight: lighter;
-	font-size: 5em;
-	color: #FFC039;
-	margin-top: 5%;
+nav ul a,
+nav .brand-logo {
+	color: white;
 }
 p {
-	text-align: center;
-	font-weight: lighter;
-	font-size: 2em;
-	color: #881580;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 5%;
-	margin-bottom: 5%
+	line-height: 2rem;
 }
-#misConocimientos {
+.button-collapse {
+	color: #7b1fa2;
+}
+.parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
+}
+.parallax-container .adrix {
 	width: 100%;
-	min-height: 47em;
-	background-image: url(../img/otis_redding.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
-.conocimientos {
-	width: 30% !important;
-	height: 30% !important;
-	overflow: hidden !important;
-	margin: auto;
-	padding-top: 5%;
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .adrix {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .adrix {
+		top: 10%;
+	}
 }
-#misProyectos {
-	width: 100%;
-	min-height: 47em;
-	background-image: url(../img/green_cup.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+
+@media only screen and (max-width : 600px) {
+	#index-banner .adrix {
+		top: 0;
+	}
 }
-.proyectos {
-	width: 100% !important;
-	height: 20em !important;
-	padding-top: 5%;
-	/*margin-left: 30%;*/
-	padding-left: 15%;
+.icon-block {
+	padding: 0 15px;
 }
-#contactos {
-	width: 100%;
-	min-height: 47em;
-	background-image: url(../img/subtle_white_feathers.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+.icon-block .material-icons {
+	font-size: inherit;
 }
-#final {
-	height: 20% !important;
-}
-.iconos {
-	width: 50%;
-	padding-top: 15%;
+footer.page-footer {
+	margin: 0;
 }
